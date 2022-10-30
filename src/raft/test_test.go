@@ -14,7 +14,6 @@ import "time"
 import "math/rand"
 import "sync/atomic"
 import "sync"
-
 // The tester generously allows solutions to complete elections in one second
 // (much more than the paper's range of timeouts).
 const RaftElectionTimeout = 1000 * time.Millisecond
@@ -297,7 +296,6 @@ func TestFailAgree2B(t *testing.T) {
 
 	// re-connect
 	cfg.connect((leader + 1) % servers)
-
 	// the full set of servers should preserve
 	// previous agreements, and be able to agree
 	// on new commands.
@@ -322,7 +320,6 @@ func TestFailNoAgree2B(t *testing.T) {
 	cfg.disconnect((leader + 1) % servers)
 	cfg.disconnect((leader + 2) % servers)
 	cfg.disconnect((leader + 3) % servers)
-
 	index, _, ok := cfg.rafts[leader].Start(20)
 	if ok != true {
 		t.Fatalf("leader rejected Start()")
@@ -330,19 +327,16 @@ func TestFailNoAgree2B(t *testing.T) {
 	if index != 2 {
 		t.Fatalf("expected index 2, got %v", index)
 	}
-
+	
 	time.Sleep(2 * RaftElectionTimeout)
-
 	n, _ := cfg.nCommitted(index)
 	if n > 0 {
 		t.Fatalf("%v committed but no majority", n)
 	}
-
 	// repair
 	cfg.connect((leader + 1) % servers)
 	cfg.connect((leader + 2) % servers)
 	cfg.connect((leader + 3) % servers)
-
 	// the disconnected majority may have chosen a leader from
 	// among their own ranks, forgetting index 2.
 	leader2 := cfg.checkOneLeader()
@@ -353,7 +347,6 @@ func TestFailNoAgree2B(t *testing.T) {
 	if index2 < 2 || index2 > 3 {
 		t.Fatalf("unexpected index %v", index2)
 	}
-
 	cfg.one(1000, servers, true)
 
 	cfg.end()
@@ -686,7 +679,6 @@ func TestPersist12C(t *testing.T) {
 	defer cfg.cleanup()
 
 	cfg.begin("Test (2C): basic persistence")
-
 	cfg.one(11, servers, true)
 
 	// crash and re-start all
@@ -732,7 +724,6 @@ func TestPersist22C(t *testing.T) {
 	defer cfg.cleanup()
 
 	cfg.begin("Test (2C): more persistence")
-
 	index := 1
 	for iters := 0; iters < 5; iters++ {
 		cfg.one(10+index, servers, true)
@@ -778,7 +769,6 @@ func TestPersist32C(t *testing.T) {
 	defer cfg.cleanup()
 
 	cfg.begin("Test (2C): partitioned leader and one follower crash, leader restarts")
-
 	cfg.one(101, 3, true)
 
 	leader := cfg.checkOneLeader()
@@ -818,7 +808,6 @@ func TestFigure82C(t *testing.T) {
 	defer cfg.cleanup()
 
 	cfg.begin("Test (2C): Figure 8")
-
 	cfg.one(rand.Int(), 1, true)
 
 	nup := servers
@@ -874,7 +863,6 @@ func TestUnreliableAgree2C(t *testing.T) {
 	defer cfg.cleanup()
 
 	cfg.begin("Test (2C): unreliable agreement")
-
 	var wg sync.WaitGroup
 
 	for iters := 1; iters < 50; iters++ {
@@ -962,8 +950,7 @@ func internalChurn(t *testing.T, unreliable bool) {
 		cfg.begin("Test (2C): unreliable churn")
 	} else {
 		cfg.begin("Test (2C): churn")
-	}
-
+	} 
 	stop := int32(0)
 
 	// create concurrent clients

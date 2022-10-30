@@ -610,12 +610,11 @@ func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {
 	}
 	return -1
 }
-
 // start a Test.
 // print the Test message.
 // e.g. cfg.begin("Test (2B): RPC counts aren't too high")
 func (cfg *config) begin(description string) {
-	fmt.Printf("%s ...\n", description)
+	// fmt.Printf("%s ...\n", description)
 	cfg.t0 = time.Now()
 	cfg.rpcs0 = cfg.rpcTotal()
 	cfg.bytes0 = cfg.bytesTotal()
@@ -630,16 +629,16 @@ func (cfg *config) begin(description string) {
 func (cfg *config) end() {
 	cfg.checkTimeout()
 	if cfg.t.Failed() == false {
-		cfg.mu.Lock()
-		t := time.Since(cfg.t0).Seconds()       // real time
-		npeers := cfg.n                         // number of Raft peers
-		nrpc := cfg.rpcTotal() - cfg.rpcs0      // number of RPC sends
-		nbytes := cfg.bytesTotal() - cfg.bytes0 // number of bytes
-		ncmds := cfg.maxIndex - cfg.maxIndex0   // number of Raft agreements reported
-		cfg.mu.Unlock()
+		// cfg.mu.Lock()
+		// t := time.Since(cfg.t0).Seconds()       // real time
+		// npeers := cfg.n                         // number of Raft peers
+		// nrpc := cfg.rpcTotal() - cfg.rpcs0      // number of RPC sends
+		// nbytes := cfg.bytesTotal() - cfg.bytes0 // number of bytes
+		// ncmds := cfg.maxIndex - cfg.maxIndex0   // number of Raft agreements reported
+		// cfg.mu.Unlock()
 
-		fmt.Printf("  ... Passed --")
-		fmt.Printf("  %4.1f  %d %4d %7d %4d\n", t, npeers, nrpc, nbytes, ncmds)
+		// fmt.Printf("  ... Passed --")
+		// fmt.Printf("  %4.1f  %d %4d %7d %4d\n", t, npeers, nrpc, nbytes, ncmds)
 	}
 }
 

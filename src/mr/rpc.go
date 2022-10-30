@@ -9,17 +9,17 @@ package mr
 import "os"
 import "strconv"
 
-//
-// example to show how to declare the arguments
-// and reply for an RPC.
-//
-
-type ExampleArgs struct {
-	X int
-}
-
-type ExampleReply struct {
-	Y int
+type TaskReq struct {}
+type TaskFinish struct{
+	TASKTYPE string //"map","reduce"
+	TASKID int 
+} 
+type TaskReply struct {
+	TASKTYPE string //"map","reduce","wait","close"
+	TASKID int
+	FILENAME string  //only for "map" task
+	NREDUCE int //workers need this information
+	NMAP int //workers need this information
 }
 
 // Add your RPC definitions here.
