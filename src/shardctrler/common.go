@@ -1,5 +1,5 @@
 package shardctrler
-
+import "log"
 //
 // Shard controler: assigns shards to replication groups.
 //
@@ -28,14 +28,18 @@ type Config struct {
 	Groups map[int][]string // gid -> servers[]
 }
 
+type Err string
 const (
-	OK = "OK"
+	OK             = "OK"
+	ErrWrongLeader = "ErrWrongLeader"
+	ErrTimeout     = "ErrTimeout"
+	ErrJoinDup     = "ErrJoinDup"
 )
 
-type Err string
-
 type JoinArgs struct {
-	Servers map[int][]string // new GID -> servers mappings
+	Servers 	map[int][]string // new GID -> servers mappings
+	ClientId  int64 //client的唯一id
+	SeqNum 		int   //命令的唯一id
 }
 
 type JoinReply struct {
@@ -44,7 +48,9 @@ type JoinReply struct {
 }
 
 type LeaveArgs struct {
-	GIDs []int
+	GIDs 			[]int
+	ClientId  int64 //client的唯一id
+	SeqNum 		int   //命令的唯一id
 }
 
 type LeaveReply struct {
@@ -53,8 +59,10 @@ type LeaveReply struct {
 }
 
 type MoveArgs struct {
-	Shard int
-	GID   int
+	Shard		 	int
+	GID   		int
+	ClientId  int64 //client的唯一id
+	SeqNum 		int   //命令的唯一id
 }
 
 type MoveReply struct {
@@ -63,11 +71,39 @@ type MoveReply struct {
 }
 
 type QueryArgs struct {
-	Num int // desired config number
+	Num 			int // desired config number
+	ClientId  int64 //client的唯一id
+	SeqNum 		int   //命令的唯一id
 }
 
 type QueryReply struct {
 	WrongLeader bool
 	Err         Err
 	Config      Config
+}
+
+const Debug = false
+
+func DPrintf(format string, a ...interface{}) {
+	if Debug {
+		log.Printf(format, a...)
+	}
+	return
+}
+type CommandType string
+
+const (
+	JoinMethod    = "Join"
+	LeaveMethod 	= "Leave"
+	MoveMethod    = "Move"
+	QueryMethod   = "Query"
+)
+
+func isInset(GIDs []int,gid int) bool{
+	for _,value := range GIDs{
+		if value==gid{
+			return true
+		}
+	}
+	return false
 }

@@ -4,6 +4,8 @@ import "time"
 import "os"
 import "fmt"
 import "strconv"
+import "sync"
+//--------------------------------------------------- Max & Min ----------------------------------------------------------
 func Max(a int,b int) int{
 	if a>b{
 		return a
@@ -18,6 +20,7 @@ func Min(a int,b int) int{
 		return b
 	}	
 }
+//------------------------------------------------- Debug ----------------------------------------------------------------
 func getVerbosity() int {
 	v := os.Getenv("VERBOSE")
 	level := 0
@@ -30,7 +33,6 @@ func getVerbosity() int {
 	}
 	return level
 }
-
 type logTopic string
 const (
   candidate_ string = "candidate"
@@ -75,4 +77,46 @@ func Debug(topic logTopic, format string, a ...interface{}) {
 		// }
 	}
 }
+//----------------------------------------------------utils----------------------------------------------------------
+func (rf *Raft) Convert2follower(term int){
+	if rf.role!=follower_{
+		Debug(dTerm,"S%d convert to follower",rf.me)
+	}	
+	rf.role=follower_
+	if term>rf.CurrentTerm{
+		rf.CurrentTerm = term
+		//we must reset VotedFor if we update the CurrentTerm
+		rf.VotedFor = -1
+		rf.persist()
+	}
+	rf.electionTimeout = NewElection_timeout()
+	rf.elhe_timer = time.Now()
+}
 
+func myTimer(mu *sync.Mutex, cond *sync.Cond, duration time.Duration) {
+	go func() {
+			time.Sleep(duration)
+			mu.Lock()
+			cond.Broadcast()
+			mu.Unlock()
+	}()
+}
+
+func (rf *Raft) get_lastlogindex() int{
+	return rf.Log[len(rf.Log)-1].LogIndex
+}
+func (rf *Raft) get_lastlogTerm() int{
+	return rf.Log[len(rf.Log)-1].Term
+}
+func (rf *Raft) get_snapincludedindex() int{
+	return rf.Log[0].LogIndex
+}
+func (rf *Raft) get_snapincludedterm() int{
+	return rf.Log[0].Term
+}
+func (rf *Raft) logindex2sliceindex(logindex int) int{
+	return logindex-rf.get_snapincludedindex()
+}
+func (rf *Raft) sliceindex2logindex(sliceindex int) int{
+	return sliceindex+rf.get_snapincludedindex()
+}

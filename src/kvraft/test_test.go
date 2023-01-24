@@ -11,7 +11,7 @@ import "sync"
 import "sync/atomic"
 import "fmt"
 import "io/ioutil"
-
+// import "log"
 // The tester generously allows solutions to complete elections in one second
 // (much more than the paper's range of timeouts).
 const electionTimeout = 1 * time.Second
@@ -240,6 +240,7 @@ func GenericTest(t *testing.T, part string, nclients int, nservers int, unreliab
 	cfg := make_config(t, nservers, unreliable, maxraftstate)
 	defer cfg.cleanup()
 
+	
 	cfg.begin(title)
 	opLog := &OpLog{}
 
@@ -265,6 +266,7 @@ func GenericTest(t *testing.T, part string, nclients int, nservers int, unreliab
 			if !randomkeys {
 				Put(cfg, myck, strconv.Itoa(cli), last, opLog, cli)
 			}
+			
 			for atomic.LoadInt32(&done_clients) == 0 {
 				var key string
 				if randomkeys {
@@ -283,6 +285,7 @@ func GenericTest(t *testing.T, part string, nclients int, nservers int, unreliab
 				} else if randomkeys && (rand.Int()%1000) < 100 {
 					// we only do this when using random keys, because it would break the
 					// check done after Get() operations
+					// log.Printf("%d: client new put %v\n", cli, nv)
 					Put(cfg, myck, key, nv, opLog, cli)
 					j++
 				} else {
@@ -295,7 +298,6 @@ func GenericTest(t *testing.T, part string, nclients int, nservers int, unreliab
 				}
 			}
 		})
-
 		if partitions {
 			// Allow the clients to perform some operations without interruption
 			time.Sleep(1 * time.Second)
@@ -305,7 +307,6 @@ func GenericTest(t *testing.T, part string, nclients int, nservers int, unreliab
 
 		atomic.StoreInt32(&done_clients, 1)     // tell clients to quit
 		atomic.StoreInt32(&done_partitioner, 1) // tell partitioner to quit
-
 		if partitions {
 			// log.Printf("wait for partitioner\n")
 			<-ch_partitioner
@@ -365,7 +366,7 @@ func GenericTest(t *testing.T, part string, nclients int, nservers int, unreliab
 			}
 		}
 	}
-
+	// DPrintf("Test Here(4)...")
 	res, info := porcupine.CheckOperationsVerbose(models.KvModel, opLog.Read(), linearizabilityCheckTimeout)
 	if res == porcupine.Illegal {
 		file, err := ioutil.TempFile("", "*.html")

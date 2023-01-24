@@ -1,13 +1,18 @@
 package kvraft
 
-import "6.824/labrpc"
-import "crypto/rand"
-import "math/big"
-
+import (
+	"6.824/labrpc"
+	"crypto/rand"
+	"math/big"
+	"sync"
+)
 
 type Clerk struct {
 	servers []*labrpc.ClientEnd
-	// You will have to modify this struct.
+	lastleader	int 	//the id of leader found by previous RPC
+	mu					sync.Mutex
+	clientId		int64	//the unique id for client
+	seqNum 			int		//the unique id for command
 }
 
 func nrand() int64 {
@@ -20,7 +25,9 @@ func nrand() int64 {
 func MakeClerk(servers []*labrpc.ClientEnd) *Clerk {
 	ck := new(Clerk)
 	ck.servers = servers
-	// You'll have to add code here.
+	ck.lastleader = 0
+	ck.clientId = nrand()
+	ck.seqNum = 0
 	return ck
 }
 
@@ -37,9 +44,27 @@ func MakeClerk(servers []*labrpc.ClientEnd) *Clerk {
 // arguments. and reply must be passed as a pointer.
 //
 func (ck *Clerk) Get(key string) string {
-
 	// You will have to modify this function.
-	return ""
+	seqNum :=ck.seqNum+1
+	args:=GetArgs{
+		Key: 			key,
+		ClientId:	ck.clientId,
+		SeqNum:		seqNum,
+	}
+	serverId := ck.lastleader
+	for ; ; serverId=(serverId+1)%len(ck.servers){
+		reply:=GetReply{}
+		ok := ck.servers[serverId].Call("KVServer.Get",&args,&reply)
+		if !ok || reply.Err == ErrTimeout || reply.Err == ErrWrongLeader{
+			continue
+		}
+		ck.lastleader = serverId
+		ck.seqNum = seqNum
+		if reply.Err == ErrNoKey{
+			return ""
+		}
+		return reply.Value
+	}
 }
 
 //
@@ -54,6 +79,25 @@ func (ck *Clerk) Get(key string) string {
 //
 func (ck *Clerk) PutAppend(key string, value string, op string) {
 	// You will have to modify this function.
+	seqNum :=ck.seqNum+1
+	args:=PutAppendArgs{
+		Key: 			key,
+		Value:		value,
+		Op:				op,
+		ClientId:	ck.clientId,
+		SeqNum:		seqNum,
+	}
+	serverId := ck.lastleader
+	for ; ; serverId=(serverId+1)%len(ck.servers){
+		reply:=PutAppendReply{}
+		ok := ck.servers[serverId].Call("KVServer.PutAppend",&args,&reply)
+		if !ok || reply.Err == ErrTimeout || reply.Err == ErrWrongLeader{
+			continue
+		}
+		ck.lastleader = serverId
+		ck.seqNum = seqNum
+		return 
+	}
 }
 
 func (ck *Clerk) Put(key string, value string) {

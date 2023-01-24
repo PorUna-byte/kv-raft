@@ -1,9 +1,12 @@
 package kvraft
 
+import "log"
+
 const (
 	OK             = "OK"
 	ErrNoKey       = "ErrNoKey"
 	ErrWrongLeader = "ErrWrongLeader"
+	ErrTimeout     = "ErrTimeout"
 )
 
 type Err string
@@ -16,6 +19,8 @@ type PutAppendArgs struct {
 	// You'll have to add definitions here.
 	// Field names must start with capital letters,
 	// otherwise RPC will break.
+	ClientId  int64 //client的唯一id
+	SeqNum int   //命令的唯一id
 }
 
 type PutAppendReply struct {
@@ -25,9 +30,28 @@ type PutAppendReply struct {
 type GetArgs struct {
 	Key string
 	// You'll have to add definitions here.
+	ClientId  int64 //client的唯一id
+	SeqNum int   //命令的唯一id
 }
 
 type GetReply struct {
 	Err   Err
 	Value string
 }
+
+const Debug = false
+
+func DPrintf(format string, a ...interface{}) {
+	if Debug {
+		log.Printf(format, a...)
+	}
+	return
+}
+
+type CommandType string
+
+const (
+	PutMethod    = "Put"
+	AppendMethod = "Append"
+	GetMethod    = "Get"
+)

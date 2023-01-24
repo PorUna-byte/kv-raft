@@ -1,1206 +1,800 @@
 PASS
-ok  	6.824/raft	13.096s
+ok  	6.824/raft	13.460s
 PASS
-ok  	6.824/raft	37.180s
+ok  	6.824/raft	37.246s
 PASS
-ok  	6.824/raft	131.641s
+ok  	6.824/raft	135.164s
 PASS
-ok  	6.824/raft	13.203s
+ok  	6.824/raft	190.123s
 PASS
-ok  	6.824/raft	39.682s
+ok  	6.824/raft	13.160s
 PASS
-ok  	6.824/raft	127.330s
+ok  	6.824/raft	35.631s
 PASS
-ok  	6.824/raft	14.185s
+ok  	6.824/raft	122.186s
 PASS
-ok  	6.824/raft	38.772s
+ok  	6.824/raft	194.588s
 PASS
-ok  	6.824/raft	125.823s
-PASS
-ok  	6.824/raft	12.934s
-PASS
-ok  	6.824/raft	35.374s
-PASS
-ok  	6.824/raft	123.704s
-PASS
-ok  	6.824/raft	13.501s
-PASS
-ok  	6.824/raft	38.083s
-PASS
-ok  	6.824/raft	131.228s
-PASS
-ok  	6.824/raft	12.958s
-PASS
-ok  	6.824/raft	35.751s
-PASS
-ok  	6.824/raft	129.820s
-PASS
-ok  	6.824/raft	13.529s
-PASS
-ok  	6.824/raft	38.436s
-PASS
-ok  	6.824/raft	119.131s
-PASS
-ok  	6.824/raft	13.030s
-PASS
-ok  	6.824/raft	37.090s
-PASS
-ok  	6.824/raft	122.045s
-PASS
-ok  	6.824/raft	13.095s
-PASS
-ok  	6.824/raft	39.663s
-PASS
-ok  	6.824/raft	137.115s
-PASS
-ok  	6.824/raft	13.637s
-PASS
-ok  	6.824/raft	39.583s
-PASS
-ok  	6.824/raft	133.753s
-PASS
-ok  	6.824/raft	13.162s
-PASS
-ok  	6.824/raft	39.632s
-PASS
-ok  	6.824/raft	130.509s
-PASS
-ok  	6.824/raft	13.050s
-PASS
-ok  	6.824/raft	39.945s
-PASS
-ok  	6.824/raft	131.066s
-PASS
-ok  	6.824/raft	13.511s
-PASS
-ok  	6.824/raft	39.015s
-PASS
-ok  	6.824/raft	138.816s
-PASS
-ok  	6.824/raft	13.145s
-PASS
-ok  	6.824/raft	39.303s
-PASS
-ok  	6.824/raft	125.682s
-PASS
-ok  	6.824/raft	12.878s
-PASS
-ok  	6.824/raft	40.161s
-PASS
-ok  	6.824/raft	121.974s
-PASS
-ok  	6.824/raft	13.168s
-PASS
-ok  	6.824/raft	41.425s
-PASS
-ok  	6.824/raft	125.384s
-PASS
-ok  	6.824/raft	12.917s
-PASS
-ok  	6.824/raft	37.222s
-PASS
-ok  	6.824/raft	117.589s
-PASS
-ok  	6.824/raft	13.489s
-PASS
-ok  	6.824/raft	39.451s
-PASS
-ok  	6.824/raft	135.767s
-PASS
-ok  	6.824/raft	13.956s
-PASS
-ok  	6.824/raft	37.566s
-PASS
-ok  	6.824/raft	129.828s
-PASS
-ok  	6.824/raft	13.133s
-PASS
-ok  	6.824/raft	37.172s
-PASS
-ok  	6.824/raft	129.767s
-PASS
-ok  	6.824/raft	13.608s
-PASS
-ok  	6.824/raft	40.243s
-PASS
-ok  	6.824/raft	128.473s
-PASS
-ok  	6.824/raft	13.751s
-PASS
-ok  	6.824/raft	37.925s
-PASS
-ok  	6.824/raft	124.118s
-PASS
-ok  	6.824/raft	14.216s
-PASS
-ok  	6.824/raft	39.442s
-PASS
-ok  	6.824/raft	132.978s
-PASS
-ok  	6.824/raft	13.539s
-PASS
-ok  	6.824/raft	40.253s
-PASS
-ok  	6.824/raft	128.063s
-PASS
-ok  	6.824/raft	13.071s
-PASS
-ok  	6.824/raft	38.638s
-PASS
-ok  	6.824/raft	123.531s
-PASS
-ok  	6.824/raft	13.064s
-PASS
-ok  	6.824/raft	36.877s
-PASS
-ok  	6.824/raft	143.231s
-PASS
-ok  	6.824/raft	13.214s
-PASS
-ok  	6.824/raft	37.093s
-PASS
-ok  	6.824/raft	126.888s
-PASS
-ok  	6.824/raft	12.953s
-PASS
-ok  	6.824/raft	37.463s
-PASS
-ok  	6.824/raft	127.031s
-PASS
-ok  	6.824/raft	13.931s
-PASS
-ok  	6.824/raft	39.650s
-PASS
-ok  	6.824/raft	124.038s
-PASS
-ok  	6.824/raft	13.572s
-PASS
-ok  	6.824/raft	34.427s
-PASS
-ok  	6.824/raft	132.664s
-PASS
-ok  	6.824/raft	13.571s
-PASS
-ok  	6.824/raft	37.885s
-PASS
-ok  	6.824/raft	133.107s
-PASS
-ok  	6.824/raft	13.043s
-PASS
-ok  	6.824/raft	38.083s
-PASS
-ok  	6.824/raft	128.883s
-PASS
-ok  	6.824/raft	13.465s
-PASS
-ok  	6.824/raft	41.434s
-PASS
-ok  	6.824/raft	130.369s
-PASS
-ok  	6.824/raft	13.404s
-PASS
-ok  	6.824/raft	37.647s
-PASS
-ok  	6.824/raft	125.564s
-PASS
-ok  	6.824/raft	13.541s
-PASS
-ok  	6.824/raft	39.950s
-PASS
-ok  	6.824/raft	128.156s
-PASS
-ok  	6.824/raft	14.216s
-PASS
-ok  	6.824/raft	39.802s
-PASS
-ok  	6.824/raft	129.131s
-PASS
-ok  	6.824/raft	13.602s
-PASS
-ok  	6.824/raft	34.375s
-PASS
-ok  	6.824/raft	120.668s
-PASS
-ok  	6.824/raft	13.445s
-PASS
-ok  	6.824/raft	35.769s
-PASS
-ok  	6.824/raft	124.546s
-PASS
-ok  	6.824/raft	13.455s
-PASS
-ok  	6.824/raft	35.980s
-PASS
-ok  	6.824/raft	120.268s
-PASS
-ok  	6.824/raft	13.499s
-PASS
-ok  	6.824/raft	37.835s
-PASS
-ok  	6.824/raft	129.401s
-PASS
-ok  	6.824/raft	12.868s
-PASS
-ok  	6.824/raft	37.959s
-PASS
-ok  	6.824/raft	135.859s
-PASS
-ok  	6.824/raft	13.695s
-PASS
-ok  	6.824/raft	39.387s
-PASS
-ok  	6.824/raft	138.303s
-PASS
-ok  	6.824/raft	13.218s
-PASS
-ok  	6.824/raft	37.387s
-PASS
-ok  	6.824/raft	129.952s
-PASS
-ok  	6.824/raft	13.040s
-PASS
-ok  	6.824/raft	36.008s
-PASS
-ok  	6.824/raft	131.648s
-PASS
-ok  	6.824/raft	13.534s
-PASS
-ok  	6.824/raft	35.729s
-PASS
-ok  	6.824/raft	120.459s
-PASS
-ok  	6.824/raft	14.420s
-PASS
-ok  	6.824/raft	37.498s
-PASS
-ok  	6.824/raft	124.247s
-PASS
-ok  	6.824/raft	13.670s
-PASS
-ok  	6.824/raft	39.725s
-PASS
-ok  	6.824/raft	125.454s
-PASS
-ok  	6.824/raft	13.508s
-PASS
-ok  	6.824/raft	37.919s
-PASS
-ok  	6.824/raft	137.464s
-PASS
-ok  	6.824/raft	13.032s
-PASS
-ok  	6.824/raft	38.320s
-PASS
-ok  	6.824/raft	134.407s
-PASS
-ok  	6.824/raft	15.137s
-PASS
-ok  	6.824/raft	39.529s
-PASS
-ok  	6.824/raft	125.333s
-PASS
-ok  	6.824/raft	13.037s
-PASS
-ok  	6.824/raft	36.055s
-PASS
-ok  	6.824/raft	128.151s
-PASS
-ok  	6.824/raft	13.522s
-PASS
-ok  	6.824/raft	39.580s
-PASS
-ok  	6.824/raft	135.684s
-PASS
-ok  	6.824/raft	13.497s
-PASS
-ok  	6.824/raft	39.379s
-PASS
-ok  	6.824/raft	129.013s
-PASS
-ok  	6.824/raft	13.626s
-PASS
-ok  	6.824/raft	40.290s
-PASS
-ok  	6.824/raft	129.059s
-PASS
-ok  	6.824/raft	12.861s
+ok  	6.824/raft	13.137s
 PASS
 ok  	6.824/raft	39.453s
 PASS
-ok  	6.824/raft	126.955s
+ok  	6.824/raft	130.097s
 PASS
-ok  	6.824/raft	13.954s
-PASS
-ok  	6.824/raft	39.362s
-PASS
-ok  	6.824/raft	138.980s
-PASS
-ok  	6.824/raft	12.620s
-PASS
-ok  	6.824/raft	38.911s
---- FAIL: TestFigure8Unreliable2C (41.93s)
-    config.go:609: one(5143) failed to reach agreement
-FAIL
-exit status 1
-FAIL	6.824/raft	137.917s
-PASS
-ok  	6.824/raft	13.667s
-PASS
-ok  	6.824/raft	39.437s
-PASS
-ok  	6.824/raft	127.042s
-PASS
-ok  	6.824/raft	13.089s
-PASS
-ok  	6.824/raft	37.441s
-PASS
-ok  	6.824/raft	128.750s
-PASS
-ok  	6.824/raft	12.908s
-PASS
-ok  	6.824/raft	39.730s
-PASS
-ok  	6.824/raft	131.818s
-PASS
-ok  	6.824/raft	12.960s
-PASS
-ok  	6.824/raft	37.477s
-PASS
-ok  	6.824/raft	133.859s
-PASS
-ok  	6.824/raft	12.879s
-PASS
-ok  	6.824/raft	38.307s
-PASS
-ok  	6.824/raft	128.402s
-PASS
-ok  	6.824/raft	13.575s
-PASS
-ok  	6.824/raft	38.117s
-PASS
-ok  	6.824/raft	121.218s
-PASS
-ok  	6.824/raft	14.048s
-PASS
-ok  	6.824/raft	37.900s
-PASS
-ok  	6.824/raft	132.620s
-PASS
-ok  	6.824/raft	13.127s
-PASS
-ok  	6.824/raft	37.704s
-PASS
-ok  	6.824/raft	125.494s
-PASS
-ok  	6.824/raft	13.117s
-PASS
-ok  	6.824/raft	38.535s
-PASS
-ok  	6.824/raft	132.520s
-PASS
-ok  	6.824/raft	13.446s
-PASS
-ok  	6.824/raft	39.612s
-PASS
-ok  	6.824/raft	123.054s
-PASS
-ok  	6.824/raft	13.410s
-PASS
-ok  	6.824/raft	39.978s
-PASS
-ok  	6.824/raft	126.857s
-PASS
-ok  	6.824/raft	13.463s
-PASS
-ok  	6.824/raft	40.377s
-PASS
-ok  	6.824/raft	125.297s
-PASS
-ok  	6.824/raft	13.664s
-PASS
-ok  	6.824/raft	34.273s
-PASS
-ok  	6.824/raft	142.506s
-PASS
-ok  	6.824/raft	12.891s
-PASS
-ok  	6.824/raft	37.623s
-PASS
-ok  	6.824/raft	127.020s
-PASS
-ok  	6.824/raft	13.187s
-PASS
-ok  	6.824/raft	36.062s
-PASS
-ok  	6.824/raft	133.874s
-PASS
-ok  	6.824/raft	13.216s
-PASS
-ok  	6.824/raft	39.782s
-PASS
-ok  	6.824/raft	127.752s
-PASS
-ok  	6.824/raft	13.103s
-PASS
-ok  	6.824/raft	37.593s
-PASS
-ok  	6.824/raft	133.545s
-PASS
-ok  	6.824/raft	13.020s
-PASS
-ok  	6.824/raft	35.730s
-PASS
-ok  	6.824/raft	130.394s
-PASS
-ok  	6.824/raft	13.275s
-PASS
-ok  	6.824/raft	39.943s
-PASS
-ok  	6.824/raft	122.457s
-PASS
-ok  	6.824/raft	13.517s
-PASS
-ok  	6.824/raft	37.311s
-PASS
-ok  	6.824/raft	129.621s
-PASS
-ok  	6.824/raft	13.495s
-PASS
-ok  	6.824/raft	35.411s
-PASS
-ok  	6.824/raft	125.165s
-PASS
-ok  	6.824/raft	13.865s
-PASS
-ok  	6.824/raft	37.745s
-PASS
-ok  	6.824/raft	121.517s
-PASS
-ok  	6.824/raft	13.590s
-PASS
-ok  	6.824/raft	36.442s
-PASS
-ok  	6.824/raft	133.981s
-PASS
-ok  	6.824/raft	13.574s
-PASS
-ok  	6.824/raft	39.944s
-PASS
-ok  	6.824/raft	128.140s
-PASS
-ok  	6.824/raft	13.627s
-PASS
-ok  	6.824/raft	39.320s
-PASS
-ok  	6.824/raft	129.069s
-PASS
-ok  	6.824/raft	13.019s
-PASS
-ok  	6.824/raft	38.045s
-PASS
-ok  	6.824/raft	135.536s
-PASS
-ok  	6.824/raft	13.558s
-PASS
-ok  	6.824/raft	37.642s
-PASS
-ok  	6.824/raft	123.793s
-PASS
-ok  	6.824/raft	13.617s
-PASS
-ok  	6.824/raft	37.727s
-PASS
-ok  	6.824/raft	130.405s
-PASS
-ok  	6.824/raft	13.165s
-PASS
-ok  	6.824/raft	37.774s
-PASS
-ok  	6.824/raft	130.154s
-PASS
-ok  	6.824/raft	12.846s
-PASS
-ok  	6.824/raft	39.509s
-PASS
-ok  	6.824/raft	126.652s
-PASS
-ok  	6.824/raft	13.450s
-PASS
-ok  	6.824/raft	40.079s
-PASS
-ok  	6.824/raft	129.497s
-PASS
-ok  	6.824/raft	13.572s
-PASS
-ok  	6.824/raft	37.295s
-PASS
-ok  	6.824/raft	133.468s
-PASS
-ok  	6.824/raft	13.588s
-PASS
-ok  	6.824/raft	35.277s
-PASS
-ok  	6.824/raft	126.982s
-PASS
-ok  	6.824/raft	13.231s
-PASS
-ok  	6.824/raft	38.815s
-PASS
-ok  	6.824/raft	132.475s
-PASS
-ok  	6.824/raft	13.430s
-PASS
-ok  	6.824/raft	35.591s
-PASS
-ok  	6.824/raft	123.664s
-PASS
-ok  	6.824/raft	13.098s
-PASS
-ok  	6.824/raft	36.294s
-PASS
-ok  	6.824/raft	126.476s
-PASS
-ok  	6.824/raft	12.953s
-PASS
-ok  	6.824/raft	37.732s
-PASS
-ok  	6.824/raft	132.053s
-PASS
-ok  	6.824/raft	13.669s
-PASS
-ok  	6.824/raft	38.204s
-PASS
-ok  	6.824/raft	128.396s
-PASS
-ok  	6.824/raft	13.505s
-PASS
-ok  	6.824/raft	39.324s
-PASS
-ok  	6.824/raft	125.226s
-PASS
-ok  	6.824/raft	13.324s
-PASS
-ok  	6.824/raft	37.587s
-PASS
-ok  	6.824/raft	136.669s
-PASS
-ok  	6.824/raft	13.072s
-PASS
-ok  	6.824/raft	38.082s
-PASS
-ok  	6.824/raft	132.377s
-PASS
-ok  	6.824/raft	13.012s
-PASS
-ok  	6.824/raft	38.277s
-PASS
-ok  	6.824/raft	144.050s
-PASS
-ok  	6.824/raft	13.730s
-PASS
-ok  	6.824/raft	36.574s
-PASS
-ok  	6.824/raft	118.502s
-PASS
-ok  	6.824/raft	13.278s
-PASS
-ok  	6.824/raft	36.455s
-PASS
-ok  	6.824/raft	127.097s
-PASS
-ok  	6.824/raft	13.474s
-PASS
-ok  	6.824/raft	37.989s
-PASS
-ok  	6.824/raft	134.444s
-PASS
-ok  	6.824/raft	14.139s
-PASS
-ok  	6.824/raft	35.611s
-PASS
-ok  	6.824/raft	130.558s
-PASS
-ok  	6.824/raft	12.815s
-PASS
-ok  	6.824/raft	37.631s
-PASS
-ok  	6.824/raft	123.976s
-PASS
-ok  	6.824/raft	14.299s
-PASS
-ok  	6.824/raft	35.398s
-PASS
-ok  	6.824/raft	129.904s
-PASS
-ok  	6.824/raft	13.086s
-PASS
-ok  	6.824/raft	37.369s
-PASS
-ok  	6.824/raft	129.926s
-PASS
-ok  	6.824/raft	13.527s
-PASS
-ok  	6.824/raft	37.850s
-PASS
-ok  	6.824/raft	127.753s
-PASS
-ok  	6.824/raft	15.034s
-PASS
-ok  	6.824/raft	38.701s
-PASS
-ok  	6.824/raft	128.532s
-PASS
-ok  	6.824/raft	13.529s
-PASS
-ok  	6.824/raft	39.475s
-PASS
-ok  	6.824/raft	132.926s
-PASS
-ok  	6.824/raft	14.385s
-PASS
-ok  	6.824/raft	40.199s
-PASS
-ok  	6.824/raft	131.652s
-PASS
-ok  	6.824/raft	13.625s
-PASS
-ok  	6.824/raft	33.995s
-PASS
-ok  	6.824/raft	125.957s
-PASS
-ok  	6.824/raft	13.125s
-PASS
-ok  	6.824/raft	35.915s
-PASS
-ok  	6.824/raft	131.269s
-PASS
-ok  	6.824/raft	13.890s
-PASS
-ok  	6.824/raft	37.947s
-PASS
-ok  	6.824/raft	131.098s
-PASS
-ok  	6.824/raft	13.595s
-PASS
-ok  	6.824/raft	37.976s
-PASS
-ok  	6.824/raft	127.833s
-PASS
-ok  	6.824/raft	13.939s
-PASS
-ok  	6.824/raft	37.827s
-PASS
-ok  	6.824/raft	133.630s
-PASS
-ok  	6.824/raft	13.401s
-PASS
-ok  	6.824/raft	39.383s
-PASS
-ok  	6.824/raft	126.112s
-PASS
-ok  	6.824/raft	13.019s
-PASS
-ok  	6.824/raft	39.738s
-PASS
-ok  	6.824/raft	129.649s
-PASS
-ok  	6.824/raft	13.091s
-PASS
-ok  	6.824/raft	38.067s
-PASS
-ok  	6.824/raft	130.853s
-PASS
-ok  	6.824/raft	13.443s
-PASS
-ok  	6.824/raft	39.196s
-PASS
-ok  	6.824/raft	125.639s
-PASS
-ok  	6.824/raft	13.259s
-PASS
-ok  	6.824/raft	38.311s
-PASS
-ok  	6.824/raft	117.596s
-PASS
-ok  	6.824/raft	13.180s
-PASS
-ok  	6.824/raft	39.504s
-PASS
-ok  	6.824/raft	131.856s
-PASS
-ok  	6.824/raft	13.145s
-PASS
-ok  	6.824/raft	35.680s
-PASS
-ok  	6.824/raft	124.434s
-PASS
-ok  	6.824/raft	13.044s
-PASS
-ok  	6.824/raft	39.290s
-PASS
-ok  	6.824/raft	121.373s
-PASS
-ok  	6.824/raft	13.108s
-PASS
-ok  	6.824/raft	40.465s
-PASS
-ok  	6.824/raft	129.520s
-PASS
-ok  	6.824/raft	13.697s
-PASS
-ok  	6.824/raft	37.784s
-PASS
-ok  	6.824/raft	133.045s
-PASS
-ok  	6.824/raft	12.926s
-PASS
-ok  	6.824/raft	39.881s
-PASS
-ok  	6.824/raft	126.031s
-PASS
-ok  	6.824/raft	13.722s
-PASS
-ok  	6.824/raft	38.520s
-PASS
-ok  	6.824/raft	125.759s
-PASS
-ok  	6.824/raft	14.230s
-PASS
-ok  	6.824/raft	38.951s
-PASS
-ok  	6.824/raft	129.612s
-PASS
-ok  	6.824/raft	13.127s
-PASS
-ok  	6.824/raft	37.340s
-PASS
-ok  	6.824/raft	129.677s
-PASS
-ok  	6.824/raft	13.571s
-PASS
-ok  	6.824/raft	40.349s
-PASS
-ok  	6.824/raft	132.139s
-PASS
-ok  	6.824/raft	13.629s
-PASS
-ok  	6.824/raft	38.739s
-PASS
-ok  	6.824/raft	126.532s
-PASS
-ok  	6.824/raft	12.996s
-PASS
-ok  	6.824/raft	34.449s
-PASS
-ok  	6.824/raft	127.382s
-PASS
-ok  	6.824/raft	12.988s
-PASS
-ok  	6.824/raft	35.252s
-PASS
-ok  	6.824/raft	126.349s
-PASS
-ok  	6.824/raft	14.084s
-PASS
-ok  	6.824/raft	37.156s
-PASS
-ok  	6.824/raft	131.333s
-PASS
-ok  	6.824/raft	12.982s
-PASS
-ok  	6.824/raft	35.191s
-PASS
-ok  	6.824/raft	131.948s
-PASS
-ok  	6.824/raft	13.573s
-PASS
-ok  	6.824/raft	37.670s
-PASS
-ok  	6.824/raft	130.117s
-PASS
-ok  	6.824/raft	13.063s
-PASS
-ok  	6.824/raft	39.684s
-PASS
-ok  	6.824/raft	135.345s
-PASS
-ok  	6.824/raft	13.144s
-PASS
-ok  	6.824/raft	38.508s
-PASS
-ok  	6.824/raft	127.458s
-PASS
-ok  	6.824/raft	13.072s
-PASS
-ok  	6.824/raft	37.921s
-PASS
-ok  	6.824/raft	121.777s
-PASS
-ok  	6.824/raft	13.572s
-PASS
-ok  	6.824/raft	40.042s
-PASS
-ok  	6.824/raft	130.119s
-PASS
-ok  	6.824/raft	13.417s
-PASS
-ok  	6.824/raft	36.514s
-PASS
-ok  	6.824/raft	118.652s
+ok  	6.824/raft	197.032s
 PASS
 ok  	6.824/raft	13.616s
 PASS
-ok  	6.824/raft	37.515s
+ok  	6.824/raft	38.413s
 PASS
-ok  	6.824/raft	123.386s
+ok  	6.824/raft	129.658s
 PASS
-ok  	6.824/raft	13.095s
+ok  	6.824/raft	186.126s
 PASS
-ok  	6.824/raft	37.659s
+ok  	6.824/raft	13.642s
 PASS
-ok  	6.824/raft	124.944s
+ok  	6.824/raft	39.508s
 PASS
-ok  	6.824/raft	12.961s
+ok  	6.824/raft	131.216s
 PASS
-ok  	6.824/raft	38.056s
+ok  	6.824/raft	170.850s
 PASS
-ok  	6.824/raft	133.546s
-PASS
-ok  	6.824/raft	13.019s
-PASS
-ok  	6.824/raft	37.322s
-PASS
-ok  	6.824/raft	129.229s
-PASS
-ok  	6.824/raft	13.499s
-PASS
-ok  	6.824/raft	40.127s
-PASS
-ok  	6.824/raft	124.465s
-PASS
-ok  	6.824/raft	13.960s
-PASS
-ok  	6.824/raft	38.568s
-PASS
-ok  	6.824/raft	127.138s
-PASS
-ok  	6.824/raft	13.618s
-PASS
-ok  	6.824/raft	37.645s
---- FAIL: TestFigure8Unreliable2C (44.12s)
-    config.go:609: one(2754) failed to reach agreement
-FAIL
-exit status 1
-FAIL	6.824/raft	140.580s
-PASS
-ok  	6.824/raft	13.577s
-PASS
-ok  	6.824/raft	40.031s
-PASS
-ok  	6.824/raft	139.997s
-PASS
-ok  	6.824/raft	14.038s
-PASS
-ok  	6.824/raft	38.051s
-PASS
-ok  	6.824/raft	129.078s
-PASS
-ok  	6.824/raft	13.228s
-PASS
-ok  	6.824/raft	37.818s
-PASS
-ok  	6.824/raft	129.959s
-PASS
-ok  	6.824/raft	12.946s
-PASS
-ok  	6.824/raft	38.661s
-PASS
-ok  	6.824/raft	128.766s
-PASS
-ok  	6.824/raft	13.572s
-PASS
-ok  	6.824/raft	35.727s
-PASS
-ok  	6.824/raft	126.203s
-PASS
-ok  	6.824/raft	13.020s
-PASS
-ok  	6.824/raft	39.755s
-PASS
-ok  	6.824/raft	122.060s
-PASS
-ok  	6.824/raft	13.553s
-PASS
-ok  	6.824/raft	39.530s
-PASS
-ok  	6.824/raft	132.965s
-PASS
-ok  	6.824/raft	13.341s
-PASS
-ok  	6.824/raft	36.776s
-PASS
-ok  	6.824/raft	129.452s
-PASS
-ok  	6.824/raft	13.018s
+ok  	6.824/raft	13.140s
 PASS
 ok  	6.824/raft	39.268s
 PASS
-ok  	6.824/raft	130.590s
+ok  	6.824/raft	130.749s
 PASS
-ok  	6.824/raft	13.602s
+ok  	6.824/raft	194.017s
 PASS
-ok  	6.824/raft	38.289s
+ok  	6.824/raft	12.976s
 PASS
-ok  	6.824/raft	121.449s
+ok  	6.824/raft	38.118s
 PASS
-ok  	6.824/raft	13.509s
+ok  	6.824/raft	124.721s
 PASS
-ok  	6.824/raft	36.526s
+ok  	6.824/raft	185.307s
 PASS
-ok  	6.824/raft	130.579s
+ok  	6.824/raft	13.532s
 PASS
-ok  	6.824/raft	13.146s
+ok  	6.824/raft	37.205s
 PASS
-ok  	6.824/raft	39.969s
+ok  	6.824/raft	124.193s
 PASS
-ok  	6.824/raft	121.288s
+ok  	6.824/raft	187.460s
 PASS
-ok  	6.824/raft	12.959s
+ok  	6.824/raft	13.126s
 PASS
-ok  	6.824/raft	38.216s
+ok  	6.824/raft	40.249s
 PASS
-ok  	6.824/raft	128.937s
+ok  	6.824/raft	120.256s
 PASS
-ok  	6.824/raft	13.016s
+ok  	6.824/raft	182.908s
 PASS
-ok  	6.824/raft	37.107s
+ok  	6.824/raft	12.933s
 PASS
-ok  	6.824/raft	129.539s
+ok  	6.824/raft	39.375s
 PASS
-ok  	6.824/raft	13.417s
+ok  	6.824/raft	125.290s
 PASS
-ok  	6.824/raft	37.618s
+ok  	6.824/raft	176.555s
 PASS
-ok  	6.824/raft	131.085s
+ok  	6.824/raft	12.949s
 PASS
-ok  	6.824/raft	12.921s
+ok  	6.824/raft	37.657s
 PASS
-ok  	6.824/raft	37.764s
+ok  	6.824/raft	124.124s
 PASS
-ok  	6.824/raft	125.447s
+ok  	6.824/raft	191.136s
 PASS
-ok  	6.824/raft	13.873s
+ok  	6.824/raft	12.954s
 PASS
-ok  	6.824/raft	38.573s
+ok  	6.824/raft	37.910s
 PASS
-ok  	6.824/raft	123.905s
+ok  	6.824/raft	124.689s
 PASS
-ok  	6.824/raft	13.356s
+ok  	6.824/raft	177.201s
 PASS
-ok  	6.824/raft	38.580s
+ok  	6.824/raft	13.530s
 PASS
-ok  	6.824/raft	122.041s
+ok  	6.824/raft	35.751s
 PASS
-ok  	6.824/raft	12.972s
+ok  	6.824/raft	133.267s
 PASS
-ok  	6.824/raft	36.130s
+ok  	6.824/raft	182.721s
 PASS
-ok  	6.824/raft	125.358s
+ok  	6.824/raft	13.562s
 PASS
-ok  	6.824/raft	13.577s
+ok  	6.824/raft	38.001s
 PASS
-ok  	6.824/raft	36.988s
+ok  	6.824/raft	130.183s
 PASS
-ok  	6.824/raft	135.666s
+ok  	6.824/raft	189.880s
 PASS
-ok  	6.824/raft	14.088s
+ok  	6.824/raft	13.304s
 PASS
-ok  	6.824/raft	39.682s
+ok  	6.824/raft	40.172s
 PASS
-ok  	6.824/raft	124.992s
+ok  	6.824/raft	132.362s
 PASS
-ok  	6.824/raft	13.546s
+ok  	6.824/raft	175.175s
 PASS
-ok  	6.824/raft	38.745s
+ok  	6.824/raft	13.222s
 PASS
-ok  	6.824/raft	123.671s
+ok  	6.824/raft	39.651s
 PASS
-ok  	6.824/raft	13.396s
+ok  	6.824/raft	126.869s
 PASS
-ok  	6.824/raft	36.682s
+ok  	6.824/raft	190.529s
 PASS
-ok  	6.824/raft	123.815s
+ok  	6.824/raft	13.529s
 PASS
-ok  	6.824/raft	13.151s
+ok  	6.824/raft	39.352s
 PASS
-ok  	6.824/raft	40.170s
+ok  	6.824/raft	123.007s
 PASS
-ok  	6.824/raft	124.713s
+ok  	6.824/raft	186.541s
 PASS
-ok  	6.824/raft	13.493s
+ok  	6.824/raft	13.070s
 PASS
-ok  	6.824/raft	39.192s
+ok  	6.824/raft	39.951s
 PASS
-ok  	6.824/raft	133.053s
+ok  	6.824/raft	131.792s
 PASS
-ok  	6.824/raft	13.495s
+ok  	6.824/raft	191.113s
 PASS
-ok  	6.824/raft	38.279s
+ok  	6.824/raft	13.468s
 PASS
-ok  	6.824/raft	131.175s
+ok  	6.824/raft	39.835s
 PASS
-ok  	6.824/raft	12.890s
+ok  	6.824/raft	131.732s
 PASS
-ok  	6.824/raft	38.733s
+ok  	6.824/raft	198.674s
 PASS
-ok  	6.824/raft	124.349s
+ok  	6.824/raft	13.083s
 PASS
-ok  	6.824/raft	13.065s
+ok  	6.824/raft	40.042s
 PASS
-ok  	6.824/raft	37.465s
+ok  	6.824/raft	123.655s
 PASS
-ok  	6.824/raft	120.560s
+ok  	6.824/raft	184.173s
 PASS
-ok  	6.824/raft	13.151s
+ok  	6.824/raft	13.572s
 PASS
-ok  	6.824/raft	39.671s
+ok  	6.824/raft	37.448s
 PASS
-ok  	6.824/raft	133.655s
+ok  	6.824/raft	125.529s
 PASS
-ok  	6.824/raft	13.725s
+ok  	6.824/raft	185.597s
 PASS
-ok  	6.824/raft	35.474s
+ok  	6.824/raft	13.833s
 PASS
-ok  	6.824/raft	131.500s
+ok  	6.824/raft	39.789s
 PASS
-ok  	6.824/raft	12.880s
+ok  	6.824/raft	129.986s
 PASS
-ok  	6.824/raft	39.945s
+ok  	6.824/raft	185.202s
 PASS
-ok  	6.824/raft	129.776s
+ok  	6.824/raft	13.692s
 PASS
-ok  	6.824/raft	13.447s
+ok  	6.824/raft	38.693s
 PASS
-ok  	6.824/raft	36.522s
+ok  	6.824/raft	123.684s
 PASS
-ok  	6.824/raft	127.452s
+ok  	6.824/raft	191.481s
 PASS
 ok  	6.824/raft	12.998s
 PASS
-ok  	6.824/raft	36.603s
+ok  	6.824/raft	40.110s
 PASS
-ok  	6.824/raft	132.495s
+ok  	6.824/raft	129.321s
 PASS
-ok  	6.824/raft	13.095s
+ok  	6.824/raft	181.072s
 PASS
-ok  	6.824/raft	37.242s
+ok  	6.824/raft	13.678s
 PASS
-ok  	6.824/raft	135.598s
+ok  	6.824/raft	40.663s
 PASS
-ok  	6.824/raft	13.031s
+ok  	6.824/raft	124.105s
 PASS
-ok  	6.824/raft	39.850s
+ok  	6.824/raft	177.760s
 PASS
-ok  	6.824/raft	123.432s
+ok  	6.824/raft	13.499s
 PASS
-ok  	6.824/raft	13.441s
+ok  	6.824/raft	35.509s
 PASS
-ok  	6.824/raft	39.665s
+ok  	6.824/raft	131.959s
 PASS
-ok  	6.824/raft	136.689s
+ok  	6.824/raft	180.186s
 PASS
-ok  	6.824/raft	13.223s
+ok  	6.824/raft	13.044s
 PASS
-ok  	6.824/raft	39.782s
+ok  	6.824/raft	38.415s
 PASS
-ok  	6.824/raft	127.682s
+ok  	6.824/raft	126.758s
 PASS
-ok  	6.824/raft	13.409s
+ok  	6.824/raft	185.219s
 PASS
-ok  	6.824/raft	39.675s
+ok  	6.824/raft	13.607s
 PASS
-ok  	6.824/raft	123.735s
+ok  	6.824/raft	35.829s
 PASS
-ok  	6.824/raft	13.543s
+ok  	6.824/raft	130.310s
 PASS
-ok  	6.824/raft	39.621s
+ok  	6.824/raft	186.534s
 PASS
-ok  	6.824/raft	124.846s
+ok  	6.824/raft	13.251s
 PASS
-ok  	6.824/raft	13.647s
+ok  	6.824/raft	37.810s
 PASS
-ok  	6.824/raft	37.128s
+ok  	6.824/raft	119.671s
 PASS
-ok  	6.824/raft	122.138s
+ok  	6.824/raft	184.396s
 PASS
-ok  	6.824/raft	13.538s
+ok  	6.824/raft	13.142s
 PASS
-ok  	6.824/raft	35.771s
+ok  	6.824/raft	35.532s
 PASS
-ok  	6.824/raft	123.839s
+ok  	6.824/raft	125.022s
 PASS
-ok  	6.824/raft	12.926s
+ok  	6.824/raft	201.287s
 PASS
-ok  	6.824/raft	37.648s
+ok  	6.824/raft	13.715s
 PASS
-ok  	6.824/raft	124.174s
+ok  	6.824/raft	36.327s
 PASS
-ok  	6.824/raft	13.062s
+ok  	6.824/raft	119.925s
 PASS
-ok  	6.824/raft	35.717s
+ok  	6.824/raft	186.427s
 PASS
-ok  	6.824/raft	128.975s
+ok  	6.824/raft	13.382s
 PASS
-ok  	6.824/raft	13.155s
+ok  	6.824/raft	36.062s
 PASS
-ok  	6.824/raft	37.874s
+ok  	6.824/raft	135.002s
 PASS
-ok  	6.824/raft	128.536s
+ok  	6.824/raft	177.983s
 PASS
-ok  	6.824/raft	12.961s
+ok  	6.824/raft	13.744s
 PASS
-ok  	6.824/raft	38.278s
+ok  	6.824/raft	39.613s
 PASS
-ok  	6.824/raft	131.587s
+ok  	6.824/raft	136.903s
 PASS
-ok  	6.824/raft	13.573s
+ok  	6.824/raft	179.180s
 PASS
-ok  	6.824/raft	37.719s
+ok  	6.824/raft	13.711s
 PASS
-ok  	6.824/raft	128.196s
+ok  	6.824/raft	39.492s
 PASS
-ok  	6.824/raft	14.228s
+ok  	6.824/raft	125.618s
 PASS
-ok  	6.824/raft	37.994s
+ok  	6.824/raft	174.438s
 PASS
-ok  	6.824/raft	128.059s
+ok  	6.824/raft	13.529s
 PASS
-ok  	6.824/raft	13.286s
+ok  	6.824/raft	38.065s
 PASS
-ok  	6.824/raft	39.094s
+ok  	6.824/raft	122.319s
 PASS
-ok  	6.824/raft	130.845s
+ok  	6.824/raft	186.839s
 PASS
-ok  	6.824/raft	13.040s
+ok  	6.824/raft	14.498s
 PASS
-ok  	6.824/raft	37.203s
+ok  	6.824/raft	39.897s
 PASS
-ok  	6.824/raft	123.503s
+ok  	6.824/raft	127.971s
 PASS
-ok  	6.824/raft	13.610s
+ok  	6.824/raft	200.784s
 PASS
-ok  	6.824/raft	36.081s
+ok  	6.824/raft	13.978s
 PASS
-ok  	6.824/raft	138.533s
+ok  	6.824/raft	39.642s
 PASS
-ok  	6.824/raft	13.200s
+ok  	6.824/raft	126.736s
 PASS
-ok  	6.824/raft	37.833s
+ok  	6.824/raft	189.308s
 PASS
-ok  	6.824/raft	127.145s
+ok  	6.824/raft	12.858s
 PASS
-ok  	6.824/raft	12.963s
+ok  	6.824/raft	37.864s
 PASS
-ok  	6.824/raft	35.980s
+ok  	6.824/raft	130.466s
 PASS
-ok  	6.824/raft	131.635s
+ok  	6.824/raft	182.060s
+PASS
+ok  	6.824/raft	13.466s
+PASS
+ok  	6.824/raft	37.952s
+PASS
+ok  	6.824/raft	127.307s
+PASS
+ok  	6.824/raft	179.977s
+PASS
+ok  	6.824/raft	13.097s
+PASS
+ok  	6.824/raft	35.798s
+PASS
+ok  	6.824/raft	140.130s
+PASS
+ok  	6.824/raft	186.841s
+PASS
+ok  	6.824/raft	13.724s
+PASS
+ok  	6.824/raft	37.351s
+PASS
+ok  	6.824/raft	122.937s
+PASS
+ok  	6.824/raft	201.777s
+PASS
+ok  	6.824/raft	13.479s
+PASS
+ok  	6.824/raft	40.079s
+PASS
+ok  	6.824/raft	132.651s
+PASS
+ok  	6.824/raft	178.776s
+PASS
+ok  	6.824/raft	13.208s
+PASS
+ok  	6.824/raft	39.014s
+PASS
+ok  	6.824/raft	124.365s
+PASS
+ok  	6.824/raft	179.822s
+PASS
+ok  	6.824/raft	13.267s
+PASS
+ok  	6.824/raft	37.973s
+PASS
+ok  	6.824/raft	128.110s
+PASS
+ok  	6.824/raft	183.565s
+PASS
+ok  	6.824/raft	13.318s
+PASS
+ok  	6.824/raft	38.034s
+PASS
+ok  	6.824/raft	128.359s
+PASS
+ok  	6.824/raft	189.202s
+PASS
+ok  	6.824/raft	13.063s
+PASS
+ok  	6.824/raft	35.268s
+PASS
+ok  	6.824/raft	133.233s
+PASS
+ok  	6.824/raft	180.232s
+PASS
+ok  	6.824/raft	13.500s
+PASS
+ok  	6.824/raft	37.976s
+PASS
+ok  	6.824/raft	127.675s
+PASS
+ok  	6.824/raft	183.351s
+PASS
+ok  	6.824/raft	13.094s
+PASS
+ok  	6.824/raft	37.814s
+PASS
+ok  	6.824/raft	133.305s
+PASS
+ok  	6.824/raft	180.969s
+PASS
+ok  	6.824/raft	12.870s
+PASS
+ok  	6.824/raft	38.164s
+PASS
+ok  	6.824/raft	129.728s
+PASS
+ok  	6.824/raft	178.712s
+PASS
+ok  	6.824/raft	12.741s
+PASS
+ok  	6.824/raft	36.709s
+PASS
+ok  	6.824/raft	124.484s
+PASS
+ok  	6.824/raft	174.088s
+PASS
+ok  	6.824/raft	13.641s
+PASS
+ok  	6.824/raft	39.382s
+PASS
+ok  	6.824/raft	133.131s
+PASS
+ok  	6.824/raft	184.735s
+PASS
+ok  	6.824/raft	13.567s
+PASS
+ok  	6.824/raft	36.196s
+PASS
+ok  	6.824/raft	131.975s
+PASS
+ok  	6.824/raft	177.237s
+PASS
+ok  	6.824/raft	13.655s
+PASS
+ok  	6.824/raft	37.668s
+PASS
+ok  	6.824/raft	118.800s
+PASS
+ok  	6.824/raft	182.874s
+PASS
+ok  	6.824/raft	13.109s
+PASS
+ok  	6.824/raft	39.445s
+PASS
+ok  	6.824/raft	127.528s
+PASS
+ok  	6.824/raft	181.942s
+PASS
+ok  	6.824/raft	13.239s
+PASS
+ok  	6.824/raft	38.688s
+PASS
+ok  	6.824/raft	133.343s
+PASS
+ok  	6.824/raft	201.270s
+PASS
+ok  	6.824/raft	12.816s
+PASS
+ok  	6.824/raft	37.318s
+PASS
+ok  	6.824/raft	136.481s
+PASS
+ok  	6.824/raft	189.002s
+PASS
+ok  	6.824/raft	13.082s
+PASS
+ok  	6.824/raft	39.582s
+PASS
+ok  	6.824/raft	135.524s
+PASS
+ok  	6.824/raft	196.167s
+PASS
+ok  	6.824/raft	13.041s
+PASS
+ok  	6.824/raft	37.449s
+PASS
+ok  	6.824/raft	127.161s
+PASS
+ok  	6.824/raft	171.428s
+PASS
+ok  	6.824/raft	12.857s
+PASS
+ok  	6.824/raft	40.184s
+PASS
+ok  	6.824/raft	125.167s
+PASS
+ok  	6.824/raft	179.917s
+PASS
+ok  	6.824/raft	14.230s
+PASS
+ok  	6.824/raft	36.418s
+PASS
+ok  	6.824/raft	136.354s
+PASS
+ok  	6.824/raft	186.177s
+PASS
+ok  	6.824/raft	13.256s
+PASS
+ok  	6.824/raft	37.824s
+PASS
+ok  	6.824/raft	133.625s
+PASS
+ok  	6.824/raft	183.643s
+PASS
+ok  	6.824/raft	13.489s
+PASS
+ok  	6.824/raft	39.436s
+PASS
+ok  	6.824/raft	132.236s
+PASS
+ok  	6.824/raft	181.319s
+PASS
+ok  	6.824/raft	13.917s
+PASS
+ok  	6.824/raft	39.461s
+PASS
+ok  	6.824/raft	125.275s
+PASS
+ok  	6.824/raft	172.101s
+PASS
+ok  	6.824/raft	13.596s
+PASS
+ok  	6.824/raft	42.985s
+PASS
+ok  	6.824/raft	137.216s
+PASS
+ok  	6.824/raft	174.347s
+PASS
+ok  	6.824/raft	13.017s
+PASS
+ok  	6.824/raft	37.623s
+PASS
+ok  	6.824/raft	128.455s
+PASS
+ok  	6.824/raft	189.328s
+PASS
+ok  	6.824/raft	13.597s
+PASS
+ok  	6.824/raft	40.584s
+PASS
+ok  	6.824/raft	123.836s
+PASS
+ok  	6.824/raft	189.091s
+PASS
+ok  	6.824/raft	13.078s
+PASS
+ok  	6.824/raft	37.501s
+PASS
+ok  	6.824/raft	130.416s
+PASS
+ok  	6.824/raft	191.516s
+PASS
+ok  	6.824/raft	13.202s
+PASS
+ok  	6.824/raft	37.145s
+PASS
+ok  	6.824/raft	140.251s
+PASS
+ok  	6.824/raft	178.609s
+PASS
+ok  	6.824/raft	13.420s
+PASS
+ok  	6.824/raft	37.778s
+PASS
+ok  	6.824/raft	130.809s
+PASS
+ok  	6.824/raft	183.368s
+PASS
+ok  	6.824/raft	13.002s
+PASS
+ok  	6.824/raft	36.194s
+PASS
+ok  	6.824/raft	125.920s
+PASS
+ok  	6.824/raft	174.449s
+PASS
+ok  	6.824/raft	13.510s
+PASS
+ok  	6.824/raft	36.332s
+PASS
+ok  	6.824/raft	129.652s
+PASS
+ok  	6.824/raft	189.481s
+PASS
+ok  	6.824/raft	12.899s
+PASS
+ok  	6.824/raft	35.601s
+PASS
+ok  	6.824/raft	127.724s
+PASS
+ok  	6.824/raft	189.552s
+PASS
+ok  	6.824/raft	12.962s
+PASS
+ok  	6.824/raft	36.511s
+PASS
+ok  	6.824/raft	140.656s
+PASS
+ok  	6.824/raft	186.749s
+PASS
+ok  	6.824/raft	13.088s
+PASS
+ok  	6.824/raft	36.562s
+PASS
+ok  	6.824/raft	125.696s
+PASS
+ok  	6.824/raft	188.419s
+PASS
+ok  	6.824/raft	12.880s
+PASS
+ok  	6.824/raft	38.706s
+PASS
+ok  	6.824/raft	126.246s
+PASS
+ok  	6.824/raft	186.520s
+PASS
+ok  	6.824/raft	13.828s
+PASS
+ok  	6.824/raft	38.461s
+PASS
+ok  	6.824/raft	122.118s
+PASS
+ok  	6.824/raft	183.069s
+PASS
+ok  	6.824/raft	13.109s
+PASS
+ok  	6.824/raft	39.526s
+PASS
+ok  	6.824/raft	138.365s
+PASS
+ok  	6.824/raft	205.804s
+PASS
+ok  	6.824/raft	13.667s
+PASS
+ok  	6.824/raft	37.686s
+PASS
+ok  	6.824/raft	122.492s
+PASS
+ok  	6.824/raft	194.091s
+PASS
+ok  	6.824/raft	13.483s
+PASS
+ok  	6.824/raft	39.527s
+PASS
+ok  	6.824/raft	132.486s
+PASS
+ok  	6.824/raft	184.006s
+PASS
+ok  	6.824/raft	12.841s
+PASS
+ok  	6.824/raft	39.638s
+PASS
+ok  	6.824/raft	121.987s
+PASS
+ok  	6.824/raft	191.070s
+PASS
+ok  	6.824/raft	12.945s
+PASS
+ok  	6.824/raft	36.040s
+PASS
+ok  	6.824/raft	122.776s
+PASS
+ok  	6.824/raft	174.776s
+PASS
+ok  	6.824/raft	12.975s
+PASS
+ok  	6.824/raft	39.567s
+PASS
+ok  	6.824/raft	136.338s
+PASS
+ok  	6.824/raft	182.536s
+PASS
+ok  	6.824/raft	12.989s
+PASS
+ok  	6.824/raft	35.735s
+PASS
+ok  	6.824/raft	126.392s
+PASS
+ok  	6.824/raft	193.482s
+PASS
+ok  	6.824/raft	14.200s
+PASS
+ok  	6.824/raft	39.521s
+PASS
+ok  	6.824/raft	125.329s
+PASS
+ok  	6.824/raft	184.313s
+PASS
+ok  	6.824/raft	13.528s
+PASS
+ok  	6.824/raft	35.561s
+PASS
+ok  	6.824/raft	132.404s
+PASS
+ok  	6.824/raft	178.176s
+PASS
+ok  	6.824/raft	13.045s
+PASS
+ok  	6.824/raft	36.873s
+PASS
+ok  	6.824/raft	126.400s
+PASS
+ok  	6.824/raft	176.507s
+PASS
+ok  	6.824/raft	14.947s
+PASS
+ok  	6.824/raft	37.890s
+PASS
+ok  	6.824/raft	125.068s
+PASS
+ok  	6.824/raft	196.203s
+PASS
+ok  	6.824/raft	14.131s
+PASS
+ok  	6.824/raft	41.892s
+PASS
+ok  	6.824/raft	134.611s
+PASS
+ok  	6.824/raft	179.773s
+PASS
+ok  	6.824/raft	13.478s
+PASS
+ok  	6.824/raft	39.448s
+PASS
+ok  	6.824/raft	133.434s
+PASS
+ok  	6.824/raft	177.695s
+PASS
+ok  	6.824/raft	13.965s
+PASS
+ok  	6.824/raft	39.641s
+PASS
+ok  	6.824/raft	124.358s
+PASS
+ok  	6.824/raft	186.138s
+PASS
+ok  	6.824/raft	13.696s
+PASS
+ok  	6.824/raft	37.857s
+PASS
+ok  	6.824/raft	124.058s
+PASS
+ok  	6.824/raft	184.352s
+PASS
+ok  	6.824/raft	13.356s
+PASS
+ok  	6.824/raft	37.267s
+PASS
+ok  	6.824/raft	130.851s
+PASS
+ok  	6.824/raft	189.953s
+PASS
+ok  	6.824/raft	13.044s
+PASS
+ok  	6.824/raft	37.791s
+PASS
+ok  	6.824/raft	127.785s
+PASS
+ok  	6.824/raft	194.020s
+PASS
+ok  	6.824/raft	13.537s
+PASS
+ok  	6.824/raft	37.613s
+PASS
+ok  	6.824/raft	134.516s
+PASS
+ok  	6.824/raft	187.770s
+PASS
+ok  	6.824/raft	13.094s
+PASS
+ok  	6.824/raft	38.658s
+PASS
+ok  	6.824/raft	129.468s
+PASS
+ok  	6.824/raft	183.747s
+PASS
+ok  	6.824/raft	13.389s
+PASS
+ok  	6.824/raft	37.627s
+PASS
+ok  	6.824/raft	136.664s
+PASS
+ok  	6.824/raft	184.451s
+PASS
+ok  	6.824/raft	13.507s
+PASS
+ok  	6.824/raft	36.608s
+PASS
+ok  	6.824/raft	137.079s
+PASS
+ok  	6.824/raft	189.015s
+PASS
+ok  	6.824/raft	13.153s
+PASS
+ok  	6.824/raft	37.335s
+PASS
+ok  	6.824/raft	120.860s
+PASS
+ok  	6.824/raft	186.649s
+PASS
+ok  	6.824/raft	13.049s
+PASS
+ok  	6.824/raft	37.666s
+PASS
+ok  	6.824/raft	128.524s
+PASS
+ok  	6.824/raft	183.856s
+PASS
+ok  	6.824/raft	12.998s
+PASS
+ok  	6.824/raft	37.825s
+PASS
+ok  	6.824/raft	128.463s
+PASS
+ok  	6.824/raft	193.229s

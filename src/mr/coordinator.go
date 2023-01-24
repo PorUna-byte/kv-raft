@@ -23,7 +23,6 @@ type Coordinator struct {
 	nReduce int //number of reduce tasks
 	map_tasks []Task //one map task for an input file
 	reduce_tasks []Task
-	// nWorker int //number of workers
 }
 
 //
@@ -32,7 +31,8 @@ type Coordinator struct {
 
 //search for an idle map_task
 //if we find an idle map_task, we return (idle_task,false)
-//if there is no idle map_task:1. there are some runnning tasks,we return(nil,false)
+//if there is no idle map_task:
+//1. there are some runnning tasks,we return(nil,false)
 //2. all map tasks are finished, we return (nil,true)
 func (c *Coordinator) assign_map() (Task,bool){
 	all_done := true
@@ -56,7 +56,8 @@ func (c *Coordinator) assign_map() (Task,bool){
 //only called by assign_task if assign_map return (nil,true),that is all map tasks are finished
 //search for an idle reduce_task
 //if we find an idle reduce_task, we return (idle_task,false)
-//if there is no idle reduce_task:1. there are some runnning tasks,we return(nil,false)
+//if there is no idle reduce_task:
+//1. there are some runnning tasks,we return(nil,false)
 //2. all reduce tasks are finished, we return (nil,true)
 func (c *Coordinator) assign_reduce() (Task,bool){
 		all_done := true

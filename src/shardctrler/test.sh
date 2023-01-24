@@ -6,9 +6,7 @@ then
 else
   while(($int<=$1))
   do
-    go test -run 2A
-    go test -run 2B
-    go test -run 2C
+    go test
     let "int++"
   done
 fi    
